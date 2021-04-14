@@ -1,0 +1,33 @@
+WHICH IS BEST TO USE
+SYSTEM FUNCTION OR SUBPROCSS MODULE 
+TO RUN THE PYTHON COMMAND
+
+1.To verify if command is successful or not:- 
+  ->After running any python command, if it is successful, developer sends an exit code which is in form 0 or 1...any other number.
+  ->0 means code is successful
+  ->any other number means command failed
+
+2.To verify output of any cmd:-
+  ->In linux cmd prompt, the exit code is stored in a variable called '?'
+  ->variable name: ?
+  ->cmd: echo $?               (dollar symbol is used to identify any variable like '?')
+
+3.Diff b/w system() func and subprocess module:-
+  ->system() func does not return the cmd output, it prints it, but subprocess returns and also gives you the control.
+    Means: system() func gives 2 outputs, one the cmd output that they internally print using print() func. So, you can't store this data in a variable.
+    NOTE-print() func doesn't give you any control, not even you can store the data. You can only print.
+    subprocess module does not print the output, infact they return you the output, which means either-
+        a)you can store the output in a variable
+        b)in future you can print this variable
+
+  ->a)system() func shows the output along with the exit code
+    b)subprocess shows only output, and if you want exit code then, run cmd
+      subprocess.getstatusoutput("date")
+
+Hence, prefer to use subprocess.getstatusoutput() as this gives the exit code also along with cmd output & they return the output so that we can store it for any future use.
+  
+
+4.Diff b/w tuple and list:
+  ->tuples value can't be changed
+    lists are changeable means mutable.
+
