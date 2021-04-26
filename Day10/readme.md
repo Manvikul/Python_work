@@ -1,11 +1,11 @@
-# TO INTEGRATE DOCKER USING PYTHON AND API/CGI
-# CONTAINER
-# COMMANDS USED
-# STRING INTERPOLATION
-# To lauch new os without giving the code or root password of this os/with mobile or any external device
+## 1. TO INTEGRATE DOCKER USING PYTHON AND API/CGI
+## 2. CONTAINER
+## 3. COMMANDS USED
+## 4. STRING INTERPOLATION
+## 5. To lauch new os without giving the code or root password of this os/with mobile or any external device
 
 
-# TO INTEGRATE DOCKER USING PYTHON AND API/CGI
+### TO INTEGRATE DOCKER USING PYTHON AND API/CGI
 
 Docker is atool that can install, boot and login any os in the world, just in 1sec.
 
@@ -13,12 +13,12 @@ Min requirement to install any os  :
 * Bootable DVD/image   (in docker known as DOCKER IMAGE)
 	*we can install unlimited os from one single image.
 
-## CONTAINER
+### CONTAINER
 
 Any os that is directy installed on top of docker is known as a CONTAINER(os==container).
 
 
-## COMMANDS USED
+### COMMANDS USED
 
 * docker images: gives all the images(dvd) you have, downloaded.
 * docker ps: 'ps' stands for process status.list existing docker containers in running state. 
@@ -26,7 +26,7 @@ Any os that is directy installed on top of docker is known as a CONTAINER(os==co
 * docker stop <os_name>: to switch off the os whose name you mentioned in cmd.
  
 
-## STRING INTERPOLATION: Concept of treating a particular part in string as variable-
+### STRING INTERPOLATION: Concept of treating a particular part in string as variable-
 
 ![Screenshot](img/dataflow.jpeg)
 
@@ -35,7 +35,7 @@ Using this, the place of varible will be replaced by value stored in it.
 This replacement is example of String Interpolation. 
 
 
-## To lauch new os without giving the code or root password of this os/with mobile or any external device
+### To lauch new os without giving the code or root password of this os/with mobile or any external device
 
 Step1-> webserver should be running
 Step2-> program should be executable
