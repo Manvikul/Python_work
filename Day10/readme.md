@@ -28,9 +28,9 @@ Any os that is directy installed on top of docker is known as a CONTAINER(os==co
 
 ### STRING INTERPOLATION: Concept of treating a particular part in string as variable-
 
-![Screenshot](img/dataflow.jpeg)
+![Screenshot](Python_work/Day10/Screenshot (120).png)
 
-{} ->Place Holder
+{ } ->Place Holder
 Using this, the place of varible will be replaced by value stored in it.
 This replacement is example of String Interpolation. 
 
