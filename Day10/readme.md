@@ -38,8 +38,11 @@ This replacement is example of String Interpolation.
 ### To lauch new os without giving the code or root password of this os/with mobile or any external device
 
 Step1-> webserver should be running
+
 Step2-> program should be executable
+
 Step3-> use Shebang(#!)
+
 Step4-> don't use input() func as it is only for black screen.
 	to give input from html form use getvalue()
 	*NOTE: getvalue() func has capability to take input from http protocol
